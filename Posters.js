@@ -8,20 +8,20 @@ AFRAME.registerComponent("comics-posters", {
       const postersRef = [
         {
           id: "Goku",
-          url: "assets/posters/dragon_ball_super_new_cover_chapter_5_by_chibidamz_d9din9a-fullview.jpg"
+          url: "./assets/dragon_ball_super_new_cover_chapter_5_by_chibidamz_d9din9a-fullview.jpg"
         },
         {
           id: "Vegeta",
-          url: "assets/posters/download.jpg"
+          url: "./assets/download.jpg"
         },
   
         {
           id: "Naruto",
-          url: "assets/posters/naruto-vol-66.jpg"
+          url: "./assets/naruto-vol-66.jpg"
         },
         {
           id: "Sasuke",
-          url: "assets/posters/naruto-vol-58-9781421543284_hr.jpg"
+          url: "./assets/naruto-vol-58-9781421543284_hr.jpg"
         }
       ];
       let prevoiusXPosition = -60;
